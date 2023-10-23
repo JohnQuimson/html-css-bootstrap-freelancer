@@ -8,6 +8,12 @@
   border: 1px solid black;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 nav {
   color: white;
   background-color: var(--bg-secondary);
@@ -24,6 +30,10 @@ nav {
 
 .about {
   background-color: var(--bg-primary);
+  color: white;
+}
+
+footer {
   color: white;
 }
 
