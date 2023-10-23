@@ -1,6 +1,7 @@
 :root {
   --bg-primary: #1abc9c;
-  --bg-navbar: #2c3e50;
+  --bg-secondary: #2c3e50;
+  --bg-ftr-top: #3a546d;
 }
 
 .jq-bordi {
@@ -9,7 +10,7 @@
 
 nav {
   color: white;
-  background-color: var(--bg-navbar);
+  background-color: var(--bg-secondary);
 }
 
 .jumbotron {
@@ -24,4 +25,12 @@ nav {
 .about {
   background-color: var(--bg-primary);
   color: white;
+}
+
+.footer-top {
+  background-color: var(--bg-ftr-top);
+}
+
+.footer-bottom {
+  background-color: var(--bg-secondary);
 }
