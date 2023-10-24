@@ -66,3 +66,7 @@ header {
   padding: 0 10px;
   font-size: 20px;
 }
+
+#about {
+  background-color: var(--bg-primary);
+}

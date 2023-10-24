@@ -1,0 +1,19 @@
+.divisore-prima::before {
+  content: '';
+  display: inline-block;
+  width: 20%;
+  border-top: 2px solid white;
+  vertical-align: middle;
+}
+
+.divisore-dopo::after {
+  content: '';
+  display: inline-block;
+  width: 20%;
+  border-top: 2px solid white;
+  vertical-align: middle;
+}
+
+#jumbo i {
+  padding: 0 10px;
+}
