@@ -8,39 +8,61 @@
   border: 1px solid black;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-nav {
-  color: white;
+header {
   background-color: var(--bg-secondary);
-}
-
-.jumbotron {
   color: white;
-  background-color: var(--bg-primary);
 }
 
-.row .col-sm-12 {
-  border: 1px solid purple;
-}
-
-.about {
+#jumbo {
   background-color: var(--bg-primary);
   color: white;
 }
 
-footer {
-  color: white;
+.divisore-prima-b::before {
+  content: '';
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  vertical-align: middle;
 }
 
-.footer-top {
-  background-color: var(--bg-ftr-top);
+.divisore-dopo-b::after {
+  content: '';
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  vertical-align: middle;
 }
 
-.footer-bottom {
-  background-color: var(--bg-secondary);
+.divisore-prima-w::before {
+  content: '';
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.divisore-dopo-w::after {
+  content: '';
+  display: inline-block;
+  width: 20%;
+  height: 3px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.fa-star {
+  padding: 0 10px;
+  font-size: 20px;
 }
