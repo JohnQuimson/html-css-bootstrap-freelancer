@@ -75,3 +75,15 @@ form .btn {
   background-color: var(--bg-primary);
   border: none;
 }
+
+.footer-top {
+  background-color: var(--bg-ftr-top);
+}
+
+footer {
+  background-color: var(--bg-secondary);
+}
+
+.jq-link {
+  color: var(--bg-primary);
+}
