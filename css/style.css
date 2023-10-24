@@ -70,3 +70,8 @@ header {
 #about {
   background-color: var(--bg-primary);
 }
+
+form .btn {
+  background-color: var(--bg-primary);
+  border: none;
+}
