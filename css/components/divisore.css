@@ -1,19 +1,21 @@
-.divisore-prima::before {
-  content: '';
-  display: inline-block;
-  width: 20%;
-  border-top: 2px solid white;
-  vertical-align: middle;
+.divisore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.divisore-dopo::after {
-  content: '';
-  display: inline-block;
-  width: 20%;
-  border-top: 2px solid white;
-  vertical-align: middle;
+.divisore > * {
+  padding: 0 1.5625rem;
+  font-size: 2rem;
 }
 
-#jumbo i {
-  padding: 0 10px;
+.divisore::before,
+.divisore::after {
+  content: '';
+  display: inline-block;
+  height: 0.25rem;
+  background-color: white;
+  width: 30%;
+  border-radius: 0.125rem;
+  max-width: 9.375rem;
 }

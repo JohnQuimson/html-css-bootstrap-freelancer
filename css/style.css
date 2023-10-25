@@ -18,7 +18,30 @@ header {
   color: white;
 }
 
-.divisore-prima-b::before {
+@import './components/divisore.css';
+
+.divisore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divisore > * {
+  padding: 0 1.5625rem;
+  font-size: 2rem;
+}
+
+.divisore::before,
+.divisore::after {
+  content: '';
+  display: inline-block;
+  height: 0.25rem;
+  background-color: currentColor;
+  width: 30%;
+  border-radius: 0.125rem;
+  max-width: 9.375rem;
+}
+/* .divisore-prima-b::before {
   content: '';
   display: inline-block;
   width: 20%;
@@ -65,8 +88,7 @@ header {
 .fa-star {
   padding: 0 10px;
   font-size: 20px;
-}
-
+} */
 #about {
   background-color: var(--bg-primary);
 }
@@ -86,4 +108,16 @@ footer {
 
 .jq-link {
   color: var(--bg-primary);
+}
+
+.social-icon {
+  display: inline-block;
+  height: var(--size, 3.4375rem);
+  width: var(--size, 3.4375rem);
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  text-align: center;
+  line-height: var(--size, 3.4375rem);
+  color: inherit;
+  font-size: calc(0.3 * var(--size, 3.4375rem));
 }
